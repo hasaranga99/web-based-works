@@ -2,44 +2,42 @@
 <html lang="en">
 <head>
 
-  <title>JQUERY</title>
+  <title>jquery</title>
 
-<script src="jquery.min.js"></script>
-<style type="text/css">
+  <script src="jquery.min.js"></script>
 
-#circle{
-   width: 120px;
-   height: 120px;
-   border-radius: 50%;
-   background-color: blue;
-}
+  <style type="text/css">
 
+    #circle{
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: blue;
+    }
 
-
-
-
-
-</style>
-
+    .square{
+      width: 120px;
+      height: 120px;
+      background-color: greenyellow;
+      margin-top: 10px;
+    }
+  </style>
 </head>
 
 <body>
-
-<div id = "circle"></div>
-<h2>This is Ravindu Hasaranga</h2>
+<div id="circle"></div>
+<div class="square"></div>
+<div class="square"></div>
 
 <script type="text/javascript">
 
-  $("#circle").hover(function(){
+  $("div").click(function(){
 
-    $("h2").html("He is a good man");
-
-  });
+    $(this).fadeOut();
+  })
 
 </script>
-
   
 </body>
-
 
 </html>
