@@ -1,0 +1,12 @@
+{
+    "html":{
+      "sbippets":{
+          "hlk":"ul.class1>li.item$*12"
+      }
+    },
+    "css":{
+      "snippets":{
+
+      }
+    }
+}
